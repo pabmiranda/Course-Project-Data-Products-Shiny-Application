@@ -2,7 +2,7 @@
 ## Course Project data products Shiny application"
 ## author: "Pradeep K. Pant, ppant@cpan.org"
 ## date: "Aug 10, 2016"
-## Server side logic (server.R)
+## Server side logic (server.R) to build the appx
 
 ## Load Shiny library
 library(shiny)
