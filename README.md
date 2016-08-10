@@ -1,5 +1,5 @@
 # Course Project Data Products Shiny-Application
-Repo for Coursera Data Products Course Project
+Repoitory for Coursera Data Products Course Project -- Shiny Application
 
 Shiny Application for prediction analysis
 
