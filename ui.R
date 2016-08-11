@@ -33,6 +33,29 @@ shinyUI(fluidPage(
     #                           choices = list("Choice 1" = 1, 
     #                                          "Choice 2" = 2, "Choice 3" = 3),
     #                           selected = 1))  
+  ),
+  fluidRow(
+    
+    column(3,
+           radioButtons("radio", label = h3("Radio buttons"),
+                        choices = list("Choice 1" = 1, "Choice 2" = 2,
+                                       "Choice 3" = 3),selected = 1)),
+    
+    column(3,
+           selectInput("select", label = h3("Select box"), 
+                       choices = list("Choice 1" = 1, "Choice 2" = 2,
+                                      "Choice 3" = 3), selected = 1)),
+    
+    column(3, 
+           sliderInput("slider1", label = h3("Sliders"),
+                       min = 0, max = 100, value = 50),
+           sliderInput("slider2", "",
+                       min = 0, max = 100, value = c(25, 75))
+    ),
+    
+    column(3, 
+           textInput("text", label = h3("Text input"), 
+                     value = "Enter text..."))   
   )
   
     ))
