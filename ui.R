@@ -10,7 +10,7 @@ library(shiny)
 # Define UI for the application 
 shinyUI(fluidPage(
   # Application title
-  titlePanel("Prediction analysis app"),
+  titlePanel("Water Quality of River Ganga (India) in various places 2012"),
   fluidRow(
     
     
@@ -25,14 +25,17 @@ shinyUI(fluidPage(
            br(),
            br(),
            submitButton("Submit"))
-    #,
     
-    # column(3, 
-    #        checkboxGroupInput("checkGroup", 
-    #                           label = h3("labeleckbox group"), 
-    #                           choices = list("Choice 1" = 1, 
-    #                                          "Choice 2" = 2, "Choice 3" = 3),
-    #                           selected = 1))  
+    ,
+    
+     column(3, 
+            checkboxGroupInput("checkGroup", 
+                               label = h3("Select stations"), 
+                               choices = list("Uttranchal" = 1, 
+                                              "Utter Pradesh" = 2, 
+                                              "Bihar" = 3,
+                                              "West Begal"= 4),
+                               selected = 1))  
   ),
   fluidRow(
     
@@ -44,18 +47,6 @@ shinyUI(fluidPage(
     column(3,
            selectInput("select", label = h3("Select box"), 
                        choices = list("Choice 1" = 1, "Choice 2" = 2,
-                                      "Choice 3" = 3), selected = 1)),
-    
-    column(3, 
-           sliderInput("slider1", label = h3("Sliders"),
-                       min = 0, max = 100, value = 50),
-           sliderInput("slider2", "",
-                       min = 0, max = 100, value = c(25, 75))
-    ),
-    
-    column(3, 
-           textInput("text", label = h3("Text input"), 
-                     value = "Enter text..."))   
-  )
-  
-    ))
+                                      "Choice 3" = 3), selected = 1))
+  )))
+
