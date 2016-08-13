@@ -6,19 +6,15 @@
 
 ## Load Shiny library
 library(shiny)
+library(datasets)
+library(dplyr)
 
 # Server logic 
 shinyServer(function(input, output) {
-   
-  # output$distPlot <- renderPlot({
-  #   
-  #   # generate bins based on input$bins from ui.R
-  #   x    <- faithful[, 2] 
-  #   bins <- seq(min(x), max(x), length.out = input$bins + 1)
-  #   
-  #   # draw the histogram with the specified number of bins
-  #   hist(x, breaks = bins, col = 'darkgray', border = 'white')
-  #   
-  # })
   
+  output$Details <- renderDataTable({
+    data <- transmute(WaterQualityRiverGanga2012, PH = V12, Temperature = V4,
+                      Conductivity = V15, Coliform = V26, Nitrate = V20)
+    data
+  }, options = list(lengthMenu = c(5, 10, 20), pageLength = 10))
 })
