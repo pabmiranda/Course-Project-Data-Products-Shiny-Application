@@ -10,7 +10,7 @@ https://ppant.shinyapps.io/Course-Project-Data-Products-Shiny-Application/
 
 2. Created an R presentation to pitch the idea with key features of the project, source code and other links 
 
-http://rpubs.com/ppant/DataProductsPresentation
+http://rpubs.com/ppant/DevDataProductsPres
 
 Refernces: 
 https://data.gov.in (Open Government Data Platform India) 
