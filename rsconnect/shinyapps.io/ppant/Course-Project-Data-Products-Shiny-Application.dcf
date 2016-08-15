@@ -1,0 +1,10 @@
+name: Course-Project-Data-Products-Shiny-Application
+account: ppant
+server: shinyapps.io
+appId: 120116
+bundleId: 531928
+url: https://ppant.shinyapps.io/Course-Project-Data-Products-Shiny-Application/
+when: 1471236039.10653
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: DataProduct_Representation-rpubs.html|DataProduct_Representation.md|DataProduct_Representation.Rpres|README.md|DataProduct_Representation-figure/unnamed-chunk-2-1.png
