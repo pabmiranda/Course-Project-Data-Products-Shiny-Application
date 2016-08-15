@@ -7,10 +7,12 @@
 ## Load Shiny library
 library(shiny)
 
-# Define UI for the application 
+# We will analyse Water Quality Data Set taken from https://data.gov.in and will show state-wise analysis on some parameters
+# First make UI for the application 
+
 shinyUI(fluidPage(
   # Application title
-  titlePanel("Water Quality of River Ganga (India) in various places on-route (Year 2012)"),
+  titlePanel("Analyzing Water Quality levels of River Ganga (India) in various states on-route (Year 2012)"),
   br(),
   br(),
   
@@ -24,11 +26,13 @@ shinyUI(fluidPage(
                   selected = "UTTARANCHAL")),
       br(),
       br(),
-    
+# Call Data table    
 mainPanel(dataTableOutput('Details'),
+# Pass state name
 textOutput("text1"),
 br(),
 br(),
+# Plot coliform levels state-wise
 plotOutput("plot1"))
 )
 )

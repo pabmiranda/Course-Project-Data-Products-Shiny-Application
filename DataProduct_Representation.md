@@ -1,8 +1,12 @@
+
 Developing Data Product Project
-========================================================
-author: Pradeep K. Pant, ppant@cpan.org"
-date: 15th August, 2016
-autosize: true
+===============================
+
+
+Pradeep K. Pant, ppant@cpan.org 
+
+Monday, 15th August, 2016
+
 
 Introduction
 ========================================================
@@ -10,23 +14,27 @@ Introduction
 This peer assignment has two parts.
 
 - Create a Shiny apllicatio and deploy on Rstudio servers.
-- Created a Rstudio Presenter to prepare a reporducible pitch presentation.
+- Create a Rstudio Presenter to prepare a reproducible pitch presentation.
 
-A summary of the project is avaliable at 
 
 The Application
 ========================================================
-The (WaterQualityRiverGanga2012) database is used for the application. The link to the application is https://ppant.shinyapps.io/Codes/
+
+I have used dataset (WaterQualityRiverGanga2012) which has been taken from https://data.gov.in/. 
+
 
 The app allows to check the interactive data analysis on the water quality of river ganga as it passes through various states also a plot to give an idea of Choliform bacteria found in different states.
 
 
 Source code
 ========================================================
+
 Source code for ui.R and server.R is avaliable at https://github.com/ppant/Course-Project-Data-Products-Shiny-Application
+
 
 Datset summary
 ========================================================
+
 
 
 ```
