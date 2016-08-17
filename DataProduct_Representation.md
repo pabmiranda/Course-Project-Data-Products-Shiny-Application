@@ -20,10 +20,11 @@ This peer assignment has two parts.
 The Application
 ========================================================
 
-I have used dataset (WaterQualityRiverGanga2012) which has been taken from https://data.gov.in/. 
+I have used dataset (Water Quality River Ganga 2012) which has been taken from https://data.gov.in/ (Open Government Data Platform India)
 
+The application allows to check the interactive data analysis on the water quality of river ganga as it passes through various states also a plot to give an idea of Choliform bacteria found in different states.
 
-The app allows to check the interactive data analysis on the water quality of river ganga as it passes through various states also a plot to give an idea of Choliform bacteria found in different states.
+Application is running at: https://ppant.shinyapps.io/Course-Project-Data-Products-Shiny-Application/
 
 
 Source code

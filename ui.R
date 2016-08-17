@@ -23,7 +23,8 @@ shinyUI(fluidPage(
                   label = "Choose an state",
                   choices = c("UTTARANCHAL", "UTTAR PRADESH",
                               "BIHAR", "WEST BENGAL"),
-                  selected = "UTTARANCHAL")),
+                  selected = "UTTARANCHAL"),
+      helpText("On based of the state selected we'll populate a table on right hand side with crucial parameters of the water of Ganga River and below the data table we'll make a plot of Coliform bacteria in different states on based of water sample")),
       br(),
       br(),
 # Call Data table    
